@@ -6,6 +6,10 @@ class ListaLigada():
         self.__ultimo_no = None
         self.__tamanho = 0
 
+    @property
+    def tamanho(self):
+        return self.__tamanho
+
     def inserir(self, elemento):
         novo_no = No(elemento)
         if self.esta_vazia():
