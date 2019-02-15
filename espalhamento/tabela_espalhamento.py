@@ -1,5 +1,9 @@
 from listas import lista_ligada
 
+# 0: 10, 100, 1000
+# 1: 15, 25, 35,
+# 2: 16, 26, 36
+# 3 (150:200):
 class TabelaEspalhamento():
     def __init__(self):
         self.__elementos = lista_ligada.ListaLigada()
@@ -9,10 +13,19 @@ class TabelaEspalhamento():
         for i in range(self.__numero_categorias):
             self.__elementos.inserir(lista_ligada.ListaLigada())
 
+    def __gerar_numero_espalhamento(self, elemento):
+        return hash(elemento) % self.__numero_categorias
 
+    def inserir(self, elemento):
+        if self.contem(elemento):
+            return False
+        numero_espalhamento = self.__gerar_numero_espalhamento(elemento)
+        categoria = self.__elementos.recuperar_elemento_no(numero_espalhamento)
+        categoria.inserir(elemento)
+        self.__tamanho += 1
+        return True
 
-
-# 0 (0, 50):
-# 1 (50,100):
-# 2 (100,150):
-# 3 (150:200):
+    def contem(self, elemento):
+        numero_espalhamento = self.__gerar_numero_espalhamento(elemento)
+        categoria = self.__elementos.recuperar_elemento_no(numero_espalhamento)
+        return categoria.contem(elemento)
