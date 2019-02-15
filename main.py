@@ -12,6 +12,11 @@ from conjuntos import conjunto
 # print(vetor_inteiros)
 # print(vetor_inteiros.index(2))
 
+# 0 (0,50):
+# 1 (50,100):
+# 2 (100,150):
+# 3 (150:200):
+
 print(30 * "-", "MENU", 30 * "-")
 print("1. Vetores")
 print("2. Listas Ligadas")
