@@ -13,6 +13,10 @@ class TabelaEspalhamento():
         for i in range(self.__numero_categorias):
             self.__elementos.inserir(lista_ligada.ListaLigada())
 
+    @property
+    def tamanho(self):
+        return self.__tamanho
+
     def __gerar_numero_espalhamento(self, elemento):
         return hash(elemento) % self.__numero_categorias
 
@@ -28,7 +32,7 @@ class TabelaEspalhamento():
     def remover(self, elemento):
         numero_espalhamento = self.__gerar_numero_espalhamento(elemento)
         categoria = self.__elementos.recuperar_elemento_no(numero_espalhamento)
-        categoria.remover(elemento)
+        categoria.remover_elemento(elemento)
         self.__tamanho -= 1
 
     def contem(self, elemento):
