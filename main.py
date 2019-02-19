@@ -100,6 +100,9 @@ elif menu == 6:
     print(conjunto_teste.remover_elemento(3))
     print(conjunto_teste)
     print(conjunto_teste.inserir(3))
+    print(conjunto_teste.inserir("Python"))
+    print(conjunto_teste.inserir("TreinaWeb"))
+    print(conjunto_teste.inserir(4))
     print(conjunto_teste)
 
 

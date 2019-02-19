@@ -56,10 +56,11 @@ class ListaLigada():
 
     def __str__(self):
         temp = self.__primeiro_no
-        elementos = ''
+        elementos = '['
         while(temp):
             elementos = f'{elementos} {temp.elemento}'
             temp = temp.proximo
+        elementos = f'{elementos} ]'
         return elementos
 
     def recuperar_elemento_no(self, posicao):
