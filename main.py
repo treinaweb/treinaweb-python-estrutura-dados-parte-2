@@ -13,6 +13,16 @@ from mapas import mapa
 # print(vetor_inteiros)
 # print(vetor_inteiros.index(2))
 
+#       R     -- Raiz
+#     E    D  -- Nós
+#         E D -- Folhas
+#
+#
+#       10      -- Raiz
+#     5   15    -- Nós
+#       14      -- Folha
+#
+
 
 print(30 * "-", "MENU", 30 * "-")
 print("1. Vetores")
