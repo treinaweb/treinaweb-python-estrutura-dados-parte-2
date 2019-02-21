@@ -29,4 +29,14 @@ class Arvore():
             else:
                 self.__raiz.no_direito = no
 
-
+    def __inserir(self, referencia, novo_no):
+        if referencia.peso() < novo_no.peso():
+            if referencia.no_direito == None:
+                referencia.no_direito = novo_no
+            else:
+                self.__inserir(referencia.no_direito, novo_no)
+        else:
+            if referencia.no_esquerdo == None:
+                referencia.no_esquerdo = novo_no
+            else:
+                self.__inserir(referencia.no_esquerdo, novo_no)
