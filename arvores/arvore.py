@@ -27,7 +27,7 @@ class Arvore():
         else:
             self.__inserir(self.__raiz, no)
 
-    #   9
+
     #   7
     #       10
     #    9     12
@@ -42,6 +42,29 @@ class Arvore():
                 referencia.no_esquerdo = novo_no
             else:
                 self.__inserir(referencia.no_esquerdo, novo_no)
+
+    def buscar(self, no_busca):
+        return self.__buscar(self.__raiz, no_busca)
+
+    def __buscar(self, referencia, no_busca):
+        if referencia.valor == no_busca.valor:
+            return referencia
+        else:
+            # Direita do nó
+            if referencia.peso() < no_busca.peso():
+                if referencia.no_direito == None:
+                    raise ValueError("Elemento não encontrado")
+                else:
+                    print("Navegando pela direita do nó", referencia.valor.__str__())
+                    return self.__buscar(referencia.no_direito, no_busca)
+            else:
+                # Esquerda do nó
+                if referencia.no_esquerdo == None:
+                    raise ValueError("Elemento não encontrado")
+                else:
+                    print("Navegando pela esquerda do nó", referencia.valor.__str__())
+                    return self.__buscar(referencia.no_esquerdo, no_busca)
+
 
 
     def __str__(self):
