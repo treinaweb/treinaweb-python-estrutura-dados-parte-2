@@ -85,6 +85,19 @@ class Arvore():
             if referencia.no_direito != None:
                 self.__em_ordem(referencia.no_direito)
 
+    def pre_ordem(self):
+        #RED
+        self.__pre_ordem(self.__raiz)
+
+    def __pre_ordem(self, referencia):
+        print(referencia.valor.__str__())
+        if referencia.no_esquerdo != None:
+            self.__pre_ordem(referencia.no_esquerdo)
+            if referencia.no_direito != None:
+                self.__pre_ordem(referencia.no_direito)
+        else:
+            if referencia.no_direito != None:
+                self.__pre_ordem(referencia.no_direito)
 
     def __str__(self):
         return "[(X)]" if self.__raiz == None else self.__raiz.__str__()
