@@ -39,3 +39,9 @@ class NoArvore(ABC):
     @abstractmethod
     def peso(self):
         pass
+
+
+    def __str__(self):
+        return ("[(X)]" if self.__no_esquerdo == None else f'[({self.__no_esquerdo.__str__()})]') + \
+               (f'[({self.valor.__str__()}') + \
+               ("[(X)]" if self.__no_direito == None else f'[({self.__no_direito.__str__()})]')
