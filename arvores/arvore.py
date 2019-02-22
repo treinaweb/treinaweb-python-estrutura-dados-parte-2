@@ -99,5 +99,29 @@ class Arvore():
             if referencia.no_direito != None:
                 self.__pre_ordem(referencia.no_direito)
 
+
+    #       7
+    #   6         10
+    # 4       9      12
+    #   5
+    def pos_ordem(self):
+        #EDR
+        self.__pos_ordem(self.__raiz)
+
+    def __pos_ordem(self, referencia):
+        if referencia.no_esquerdo != None:
+            self.__pos_ordem(referencia.no_esquerdo)
+            if referencia.no_direito != None:
+                self.__pos_ordem(referencia.no_direito)
+            print(referencia.valor.__str__())
+        else:
+            if referencia.no_direito != None:
+                self.__pos_ordem(referencia.no_direito)
+                print(referencia.valor.__str__())
+            else:
+                print(referencia.valor.__str__())
+
+
+
     def __str__(self):
         return "[(X)]" if self.__raiz == None else self.__raiz.__str__()
