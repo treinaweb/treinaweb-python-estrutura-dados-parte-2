@@ -150,6 +150,8 @@ elif menu == 8:
     print(arvore_teste.pre_ordem())
     print("Pós-ordem")
     print(arvore_teste.pos_ordem())
+    print("Altura")
+    print(arvore_teste.altura())
 
 
 else:

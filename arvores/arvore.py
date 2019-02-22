@@ -122,6 +122,20 @@ class Arvore():
                 print(referencia.valor.__str__())
 
 
+    #       7
+    #   6 h = 1         10
+    # 4  h = 2     9      12
+    #   5 h = 3
+
+    def altura(self):
+        return self.__altura(self.__raiz)
+
+    def __altura(self, referencia):
+        if referencia == None:
+            return -1
+        altura_esquerda = self.__altura(referencia.no_esquerdo)
+        altura_direita = self.__altura(referencia.no_direito)
+        return (altura_esquerda + 1) if altura_esquerda > altura_direita else (altura_direita + 1)
 
     def __str__(self):
         return "[(X)]" if self.__raiz == None else self.__raiz.__str__()
