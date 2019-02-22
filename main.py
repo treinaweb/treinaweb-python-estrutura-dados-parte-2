@@ -132,7 +132,8 @@ elif menu == 7:
 elif menu == 8:
     #    5
     #  4   6
-    #
+    #        8
+    #      7
     arvore_teste = arvore.Arvore()
     print(arvore_teste)
     arvore_teste.inserir_elemento(no_arvore_inteiro.NoArvoreInteiro(5))
@@ -141,8 +142,9 @@ elif menu == 8:
     arvore_teste.inserir_elemento(no_arvore_inteiro.NoArvoreInteiro(6))
     arvore_teste.inserir_elemento(no_arvore_inteiro.NoArvoreInteiro(8))
     arvore_teste.inserir_elemento(no_arvore_inteiro.NoArvoreInteiro(7))
-    print(arvore_teste)
-    print(arvore_teste.buscar(no_arvore_inteiro.NoArvoreInteiro(6)))
+    # print(arvore_teste)
+    # print(arvore_teste.buscar(no_arvore_inteiro.NoArvoreInteiro(6)))
+    print(arvore_teste.em_ordem())
 
 
 else:

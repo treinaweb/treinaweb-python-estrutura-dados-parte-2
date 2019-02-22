@@ -7,8 +7,9 @@
 #
 #       10      -- Raiz
 #     5   15   -- Nós
-#           16 -- Folha
+#   4        16 -- Folha
 # X 5 X 10 X 15 X 16 X
+# 4 5 10 15 16
 
 class Arvore():
     def __init__(self, raiz=None):
@@ -65,6 +66,24 @@ class Arvore():
                     print("Navegando pela esquerda do nó", referencia.valor.__str__())
                     return self.__buscar(referencia.no_esquerdo, no_busca)
 
+    def em_ordem(self):
+        #ERD
+        self.__em_ordem(self.__raiz)
+
+    #       7
+    #   6         10
+    # 4       9      12
+    #   5
+    def __em_ordem(self, referencia):
+        if referencia.no_esquerdo != None:
+            self.__em_ordem(referencia.no_esquerdo)
+            print(referencia.valor.__str__())
+            if referencia.no_direito != None:
+                self.__em_ordem(referencia.no_direito)
+        else:
+            print(referencia.valor.__str__())
+            if referencia.no_direito != None:
+                self.__em_ordem(referencia.no_direito)
 
 
     def __str__(self):
