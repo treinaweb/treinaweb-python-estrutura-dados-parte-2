@@ -1,6 +1,6 @@
-# TreinaWeb: curso "Python - Estrutura de Dados - Parte 1"
+# TreinaWeb: curso "Python - Estrutura de Dados - Parte 2"
 
-Repositório com o código produzido durante o curso "Python - Estrutura de Dados - Parte 1".
+Repositório com o código produzido durante o curso "Python - Estrutura de Dados - Parte 2".
 
 #### Ferramentas utilizadas no curso:
   - Python 3.6
@@ -9,25 +9,26 @@ Repositório com o código produzido durante o curso "Python - Estrutura de Dado
 #### Lista de commits
 Aula | Video | Commit | Link 
 ------ | ------ | ------ | ------ 
-Aula 02 | Conceitos básicos de vetores | 02.02_Conceitos_Basicos_Vetores | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/297e704c65cd36b4ac29ed1201914515f69944f8.zip) 
-Aula 02 | Criando vetores | 02.03_Criando_Vetores | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/492b29e8bf3a86fa132fe4670843086a6e635dcf.zip) 
-Aula 02 | Inserindo elementos | 02.04_Inserindo_Elementos_Final | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/647983cc071d5ed55d255d6edc2674211f533a42.zip) 
-Aula 02 | Inserindo elementos em uma posição específica | 02.05_Inserindo_Elementos_Posicao | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/a39ecd10f5b47c9f2231b0be522126b713883253.zip) 
-Aula 02 | Retornando tamanho e imprimindo todos os dados do vetor | 02.06_Tamanho_Impressao_Vetor | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/b4767474d6bdf7b1da9be45f3442bf41f2cf1a99.zip) 
-Aula 02 | Criando métodos contem() e indice() | 02.07_Contem_Indice | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/808a86d40fc022efb378a6d17a09762283d143bf.zip) 
-Aula 02 | Removendo elementos | 02.08_Removendo_Elementos_Posicao | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/ebcc2fe0b8ca627e36edbd18620b05642a282e5b.zip) 
-Aula 03 | Criando estrutura dos Nós | 03.04_Criando_Estrutura_Nos | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/59aba80e4dad95ee79375b6b9e6f6ac370f4c074.zip) 
-Aula 03 | Criando estrutura das listas | 03.05_Criando_Estrutura_Lista_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/b0bc2f2e9808ea330ee923742cce3efb915d2f64.zip) 
-Aula 03 | Inserindo elementos, retornando tamanho e verificando existência na lista | 03.06_Inserindo_Elementos_Lista_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/91da47c44762f3e712ba1cf5ec0d3773c314989b.zip) 
-Aula 03 | Imprimindo lista | 03.07_Imprimindo_Listas_Ligadas | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/a4cc6b1cfef3a9d99025960029fb6b48a21fe90e.zip) 
-Aula 03 | Recuperando Nós | 03.08_Recuperando_Nos_Lista_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/e91e00ca00111247f9ee8def1c6319cecaaa6260.zip) 
-Aula 03 | Inserindo elementos em uma posição específica | 03.09_Inserindo_Nos_Posicao | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/647b7cf7f73d3f09f1ae8afeea4dcac34f603948.zip) 
-Aula 03 | Criando métodos contem() e indice() | 03.10_Indice_Contem_Lista_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/ef12595a97511274e71537b1f4b26d8336f93588.zip) 
-Aula 03 | Removendo elementos | 03.11_Removendo_Elementos_Lista_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/08eabc86b531e20aa10b9b52728bd0cc402a74f9.zip) 
-Aula 04 | Criando estrutura das listas duplamente ligadas | 04.02_Criando_Estrutura_Lista_Duplamente_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/4c0ee549a16cdcc741411b1ce57f83972e7e1b0a.zip) 
-Aula 04 | Inserindo elementos | 04.03_Inserindo_Nos_Lista_Duplamente_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/ac3ddd60832a5e802e1a6a534adaaf582f016fdb.zip) 
-Aula 04 | Removendo elementos | 04.04_Removendo_Elementos_Lista_Duplamente_Ligada | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/4eb09e477c4bc2313b4624d4cae8afdc08d234d2.zip) 
-Aula 05 | Empilhando elementos | 05.03_Empilhando_Elementos | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/f95bfd68696496ada2636e5cb8355c01f22d95ca.zip) 
-Aula 05 | Desempilhando elementos | 05.05_1_Desempilhando_Elementos_Pilha | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/1a06856537ad236d7872237ae40b7c624810f576.zip) 
-Aula 06 | Enfileirando, desenfileirando e verificando presença de elementos | 06.03_Criando_Metodos_Fila | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/774c572833f2a067e63dd2c3435d7126af63c134.zip) 
-Aula 06 | Testando as filas | 06.04_Testando_Metodos_Filas | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-1/archive/80373b0086fa15070769bad6b6a271397702ab3b.zip) 
+Aula 02| Projeto da parte 1 do curso de Python ED | Projeto da parte 1 do curso de Python ED | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/f79124caa1f828ada5b0dba48a341e3a617ce22c.zip) 
+Aula 02| Criando Conjuntos| 02.03_Criando_Conjuntos | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/00a0179fcb92ea0043a725f71ac75855d408567e.zip) 
+Aula 02| Criando métodos de inserir em um conjunto  | 02.04_Criando_Metodos_Inserir | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/968ff2c3b913042863df76fd449ba85a7501ce22.zip) 
+Aula 02| Testando conjuntos no Python | 02.05_Testando_Conjuntos_Python | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/04cdc55b354db06e9db5dc64cf9ea98ee8ba32ca.zip) 
+Aula 03| Definindo as tabelas de espalhamento | 03.02_Definicao_Tabelas_Espalhamento | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/dca22a5ac9ff133b2c98bc40c636095c48c043be.zip) 
+Aula 03| Iniciando a implementação das tabelas de espalhamento | 03.03_Criando_Tabela_Espalhamento | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/90ae1835fdaee029cf90b0cda81a9806d39f0be4.zip) 
+Aula 03| Inserindo e verificando a existência de elementos em tabelas de espalhamento | 03.04_Metodos_Inserir_Contem | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/f871ab2c05bdffd1d8574307a0051f94990c50a7.zip) 
+Aula 03| Removendo elementos em tabelas de espalhamento | 03.05_Removendo_Elementos_Tabela_Espalhamento | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/fb71fef85409d28173fffa86c91f91325b406f90.zip) 
+Aula 03| Utilizando tabelas de espalhamento em sets | 03.06_1_Utilizando_Tabela_Espalhamento_Conjuntos | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/188bc349a8c9b5a6eb184141c66761b19684e66b.zip) 
+Aula 04| Definindo a estrutura associativa | 04.03_Definindo_Estrutura_Associativa | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/c35de168d9cb4d1dab5c7795e2152049e6f9af14.zip) 
+Aula 04| Otimizando mapas com tabelas de espalhamento| 04.04_Otimizando_Mapas_Tabela_Espalhamento | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/734c782fe9c19d6d887b2596c3fe862d7c819549.zip) 
+Aula 04| Implementando a pesquisa por chaves e remoção de elementos | 04.05_Pesquisando_Removendo_Chaves | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/405fd88f775480b4cb63fa0b170c420dd8fcc4ff.zip) 
+Aula 04| Inserindo e recuperando valores de um mapa | 04.06_Inserindo_Recuperando_Mapa | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/727d96c9339bd51266574e5a82e3a82fe6b1eeb9.zip) 
+Aula 04| Testando mapas no Python | 04.07_Testando_Mapas | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/d3c554508febdbe8eb6e3683b3c29005a73e4991.zip) 
+Aula 05| Criando a estrutura de um nó da árvore | 05.02_Criando_Estrutura_No | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/398885d3643ce95dab9048773a35036442e9e224.zip) 
+Aula 05| Inserindo nós e determinando a raiz de uma árvore | 05.03_Inserindo_Nos | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/bc5c32afb459333660940642bb61f271041e6722.zip) 
+Aula 05| Utilizando recursão para inserir elementos em uma árvore | 05.04_Inserindo_Nos_Recursao | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/16b66c6322fa9b9125e3290ad80292d99b9cf751.zip) 
+Aula 05| Testando a inserção | 05.05_Testando_Insercao_Arvore | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/2cc40e4ffed4f7631e1f4091fc7eb71ac8eca343.zip) 
+Aula 05| Buscando elementos em uma árvore | 05.06_Buscando_Elementos_Arvore | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/d388564808988acb7cfc9404aca76ed1dad1e6ce.zip) 
+Aula 05| Travessia de árvores binárias: “em ordem” | 05.07_Travessia_Em_Ordem | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/e854d1e8d7628736a1402c1d33d6610004bc4cd1.zip) 
+Aula 05| Travessia de árvores binárias: “pré ordem” | 05.08_Travessia_Pre_Ordem | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/5f51bc31109cb6c4274e938f8b53b7c643f98636.zip) 
+Aula 05| Travessia de árvores binárias: “pós ordem” | 05.09_Travessia_Pos_Ordem | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/c4fd1c61845e11479c46b5c70fbdfa2dc39e567e.zip) 
+Aula 05| Calculando a altura de uma árvore binária | 05.10_Calculando_Altura_Arvore | [Download](https://github.com/treinaweb/treinaweb-python-estrutura-dados-parte-2/80ca35ff2fcbc40f927fa399ba3b907525119168.zip) 
